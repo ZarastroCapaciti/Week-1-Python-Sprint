@@ -1,4 +1,4 @@
-def translateThat(dna):
+def translateDNA(dna):
 
     dna1 = dna[0:3]
     dna2 = dna[3:6]
@@ -78,4 +78,6 @@ def txtTranslate():
 
     return file2.read() + "\n" + file3.read()
 
+mutate()
 print(txtTranslate())
+print(translateDNA("ATACCCGTA"))
